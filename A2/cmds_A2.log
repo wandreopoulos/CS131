@@ -1,0 +1,10 @@
+
+  A2 due date is tonight
+  [billandreopoulos@sjsu ~]$ grep type=replied\_to downloaded\_tweets_extend\_*tsv |  awk -F "\t" '$2 != $7 {print $0}'    | cut -f 2,7 > replies.txt
+  
+  [billandreopoulos@sjsu ~]$ wc replies.txt
+   **22096**  44192 596048 replies.txt
+   
+   [billandreopoulos@sjsu ~]$ sort replies.txt | uniq  > replies.uniq.txt                             
+   [billandreopoulos@sjsu ~]$ wc replies.uniq.txt
+    **16650**  33300 450364 replies.uniq.txt' ]'

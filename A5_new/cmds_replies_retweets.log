@@ -1,0 +1,660 @@
+    1  passwd
+    2  ls -latr
+    3  pww
+    4  pwd
+    5  ls
+    6  head *
+    7  ls -lart
+    8  clear
+    9  pqs
+   10  pwd
+   11  chmod 755 .
+   12  echo $SHELL
+   13  /bin/bash
+   14  exec ls
+   15  exec bash
+   16  ls -altr
+   17  pwd
+   18  wget -O out.pdf https://tinyurl.com/yy94jltt
+   19  pwd
+   20  git clone https://billandreo@bitbucket.org/billandreo/cs131.git
+   21  git clone https://x-token-auth:ATCTT3xFfGN0-4GWqYDEecbK6MIV5Z66tyPVzwsX8CRnTymN9_JedXqbRs7KOOeg1YLqrguTu9PO1v6gEfhmCBjJ93DiKHstB59VrLS20cMTyGx47qvLyEwczLqG82YzmNwLr0pKT3QdhI3wJZSh7DDLkY7t1oL9MkwE9rOJEwjWR2GJpXmQ1kU=812907C4@bitbucket.org/billandreo/cs131.git
+   22  git config --global user.email "william.andreopoulos@sjsu.edu"
+   23  git config --global user.name "billandreo"
+   24  git clone https://billandreo@bitbucket.org/billandreo/cs131.git
+   25  git clone https://billandreo@bitbucket.org/billandreo/cs131.git cs131_B
+   26  git clone https://bitbucket.org/billandreo/cs131.git cs131_B
+   27  pwd
+   28  cd /home/billandreopoulos
+   29  ls
+   30  ls -latr
+   31  ls
+   32  ls -latr
+   33  cd cs131/
+   34  s
+   35  ls
+   36  ls -latr
+   37  cd ..
+   38  pwd
+   39  ls
+   40  ls cs131/
+   41  ls -al cs131/
+   42  git clone https://billandreo@bitbucket.org/billandreo/cs131.git cs131B
+   43  git clone https://bitbucket.org/billandreo/cs131.git cs131B
+   44  git clone https://bitbucket.org/billandreo/cs131.git cs131_B
+   45  ls
+   46  cp /mnt/scratch/CS131_billa/billandreopoulos/downloaded_tweets_extend_nolf.ASCII.CLEAN.tsv
+   47  ls -latr
+   48  groups
+   49  ls -latr ..
+   50  pwd
+   51  ls -latr
+   52  ls
+   53  ls -latr
+   54  cd cs131/
+   55  ls -latr
+   56  cd ..
+   57  ls -latr
+   58  cat cs131
+   59  vi cs131
+   60  pwd
+   61  df
+   62  df -h
+   63  pwd
+   64  cd /mnt/scratch/CS131_billa/billandreopoulos/cs131/
+   65  cd ..
+   66  cd cs131/
+   67  pw
+   68  pwd
+   69  ls  /proc
+   70  ls  /proc/meminfo 
+   71  cat /proc/meminfo 
+   72  cat /proc/cpuinfo 
+   73  cd /proc
+   74  ps aux  | grep sh
+   75  ls -altr
+   76  ls -altr | billa
+   77  ls -altr | grep billa
+   78  cd 428466
+   79  cd 428467
+   80  cd 423187
+   81  ls
+   82  ls -latr
+   83  pwd
+   84  ps aux | grep 423187
+   85  cd fd
+   86  sudo cd fd
+   87  date
+   88  cd
+   89  date
+   90  date 1> date.out
+   91  cat date.out 
+   92  date 2> date.err
+   93  cat date.err
+   94  ls khjjjklhkk 1> ls.out 2> ls.err
+   95  cat ls.out 
+   96  cat ls.err 
+   97  ls khjjjklhkk   2>&1  ls.err
+   98  cat ls.errr
+   99  cat ls.err
+  100  ls khjjjklhkk   2>&1
+  101  rm ls.err 
+  102  ls khjjjklhkk   2>&1
+  103  ls khjjjklhkk   2>&1 ls.err
+  104  ls kjhjkshhkghfdkjshk  1>  ls.txt  2>&1
+  105  cat ls.txt
+  106  ls invlidfilenames 1>>  ls.txt  2>>&1
+  107  cat ls.txt
+  108  ls invlidfilenames 1>>  ls.txt  2>> ls.txt
+  109  cat in
+  110  cat ls.
+  111  cat ls.txt 
+  112  ls invlidfilenames 1>>  ls.txt  2> /dev/null
+  113  man ls
+  114  man git
+  115  git --help
+  116  man git
+  117  git --help
+  118  git --help | more
+  119  git --help | less
+  120  git push --help
+  121  man git
+  122  ls -latr
+  123  ls -altr
+  124  pwd
+  125  vi /home/billandreopoulos/.bash_profile 
+  126  vi /home/billandreopoulos/.bashrc
+  127  alias l="ls -ltr"
+  128  alias l="ls -latr"
+  129  l
+  130  vi /home/billandreopoulos/.bashrc
+  131  l
+  132  vi /home/billandreopoulos/.bashrc
+  133  l *.tsv
+  134  l ?.tsv
+  135  vi .
+  136  echo l *.tsv
+  137  echo ls -la *.tsv
+  138  ls -la *.tsv
+  139  echo ls -la *.tsv
+  140  echo ls -la  date.???
+  141  ls -la  date.???
+  142  l date.???
+  143  echo ls ./*.txt
+  144  mkdir tmp
+  145  cd tmp
+  146  for i in {1..10000}  ; do touch $i.txt ; done
+  147  ls
+  148  ls *txt
+  149  echo ls *.txt
+  150  find ./ -type f -name "*.txt"
+  151  find ./ -type f -name "*.txt" | xargs rm -rf
+  152  ls latr
+  153  ls -latr
+  154  cd ..
+  155  ls -latr  *tsv
+  156  head -n 2 downloaded_tweets_extend_nolf.ASCII.CLEAN.tsv
+  157  tail -2 downloaded_tweets_extend_nolf.ASCII.CLEAN.tsv
+  158  tail +2 downloaded_tweets_extend_nolf.ASCII.CLEAN.tsv
+  159  touch a.txt
+  160  tail -f a.txt 
+  161  tail -f a.txt  &
+  162  echo "AAAA" >> a.txt
+  163  echo "AAAABBBB" >> a.txt
+  164  echo "AAAABBBB\nkjhfgdkjkshgjk\n14114113413" >> a.txt
+  165  nan
+  166  nano a.txt 
+  167  vi a.txt 
+  168  passwd
+  169  tmux
+  170  ls
+  171  ls -latr
+  172  pwd
+  173  cd /
+  174  ls
+  175  ls opt
+  176  ls /opt
+  177  ls -latr /opt
+  178  ls -latr /opt/rsct/
+  179  git clone --depth=1 https://github.com/amix/vimrc.git /opt/vim_runtime
+  180  sudo git clone --depth=1 https://github.com/amix/vimrc.git /opt/vim_runtime
+  181  ls -la
+  182  cd
+  183  ls -la
+  184  ls .vim
+  185  vi
+  186  /opt/vim_runtime/
+  187  vi
+  188  vim
+  189  ls -latr
+  190  vi .vimrc
+  191  which vi
+  192  vi .viminfo 
+  193  ls -la .cache
+  194  vi .viminfo 
+  195  tmux ls
+  196  vi
+  197  vi .vimrc
+  198  vi /opt/vim_runtime/my_configs.vim
+  199  vi .vimrc
+  200  vi /opt/vim_runtime/vimrcs/basic.vim
+  201  ls -la .vim
+  202  ls -la .vim/
+  203  vi .vimrc
+  204  vi /opt/vim_runtime/vimrcs/extended.vim
+  205  source ~/.vimrc
+  206  vi 
+  207  cat ~/.vimrc
+  208  tmux new-session -s cs131_homework
+  209  tmux ls
+  210  tmux -t cs131_homework
+  211  tmux attach -t cs131_homework
+  212  vi g
+  213  tmux attach -t cs131_homework
+  214  tmux ls
+  215  tmux attach -t 0
+  216  tmux attach -t cs131_homework
+  217  tmux
+  218  tmux ls
+  219  tmux attach -t 2
+  220  tmux attach -t cs131_homework
+  221  cd
+  222  git clone https://github.com/tmux-plugins/tmux-resurrect ~/tmux-resurrect/
+  223  vi .tmux.conf
+  224  tmux source-file ~/.tmux.conf
+  225  tmux attach -t cs131_homework
+  226  ls
+  227  tmux ls
+  228  tmux attach -t cs131_homework
+  229  ls -alytr
+  230  ls -latr
+  231  vi downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv 
+  232  vi downloaded_tweets_extend_nolf.ASCII.CLEAN.tsv 
+  233  vi downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv 
+  234  ls `pwd`/downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv
+  235  ls -latr *tsv
+  236  tmux attach -t cs131_homework
+  237  ls
+  238  ls -latr *tsv
+  239  ls -latr
+  240  chmod 755 .
+  241  ls -latr
+  242  tmux attach -t cs131_homework
+  243  mkdir sed_awk_scripts
+  244  cd sed_awk_scripts/
+  245  pwd
+  246  tmux attach -t cs131_homework
+  247  pwd
+  248  ls -latr
+  249  mkdir scripting
+  250  pwd
+  251  cd scripting/
+  252  ls
+  253  tmux attach -t cs131_homework
+  254  su
+  255  sudo -h
+  256  man sudo
+  257  sudo -u billandreo
+  258  sudo -u billa
+  259  ps -eo pid,ppid,pgid,user,args,comm –sort user
+  260  ps -eo pid,ppid,pgid,user,args,comm
+  261  ls | less
+  262  cd aw
+  263  cd sed_awk_scripts/
+  264  ls -altr
+  265  cat awkscr_var_user_defined
+  266  awk -f awkscr_var-user-defined -v bash_users=0 /etc/passwd
+  267  sudo awk -f awkscr_var-user-defined -v bash_users=0 /etc/passwd
+  268  su
+  269  pwd
+  270  awk -f awkscr_var_user_defined -v bash_users=0 /etc/passwd
+  271  awk -v user=instr1 -f awkscr_option-v /etc/passwd
+  272  awk -v user=billand -f awkscr_option-v /etc/passwd
+  273  echo $PATH
+  274  cat awkscr_option-v 
+  275  awk 'BEGIN {FS=":"} {print $1, " uses ", $7}' /etc/passwd
+  276  awk 'BEGIN {FS=":"} {if ($7 ==  "/usr/sbin/nologin") print $0}' /etc/passwd
+  277  cd ..
+  278  find . -type f -name playlines
+  279  cd sed_awk_scripts/
+  280  awk -v n=3 '/ and /{l++} (l==n){print}' file.txt
+  281  awk -v n=3 '/ and /{l++} (l==n){print}' playlines 
+  282  cat playlines 
+  283  awk -v n=3 '/ and /{l++} (l==n){print}' playlines 
+  284  awk ‘/Buddha/ && /buddhism/’ playlines 
+  285  awk '/Buddha/ && /buddhism/' playlines 
+  286  sed -n ‘1,2//p’ playlines 
+  287  sed -n ‘1,2p’ playlines 
+  288  sed -n '1,2p' playlines 
+  289  sed -n '/^id/,/Buddha/p' playlines 
+  290  awk -F : -f awkscr_if /etc/passwd
+  291  cat awkscr_if
+  292  awk -F : -f awkscr_ternary /etc/passwd
+  293  awk -f awkscr_while -v num=100
+  294  cat awkscr_while 
+  295  awk -f awkscr_do-while -v num=5
+  296  awk -f awkscr_do_while -v num=5
+  297  cat awkscr_do_while
+  298  awk 'BEGIN {FS=":" ; a[1] = "hello";} {if ($7 ==  "/usr/sbin/nologin") print a[1] }' /etc/passwd
+  299  awk 'BEGIN {FS=":" ; a[1] = "hello";} {if ($7 ~ "bash"") print a[1] }' /etc/passwd
+  300  awk 'BEGIN {FS=":" ; a[1] = "hello";} {if ($7 ~ "bash") print a[1] }' /etc/passwd
+  301  awk 'BEGIN {FS=":" ; a[1] = "hello"; delete a[1]; } {if ($7 ~ "bash") print a[1] }' /etc/passwd
+  302  awk 'BEGIN {FS=":" ; a[1] = "hello"; delete a[1]; } {if ($7 ~ "bash") print a[1] }' /etc/passwd | od -a
+  303  cat awkscr_array_assoc 
+  304  awk -f awkscr_array-associative /etc/passwd
+  305  awk -f awkscr_array_assoc /etc/passwd
+  306  vi  /etc/passwd
+  307  awk -f awkscr_array_assoc /etc/passwd
+  308  ls -latr
+  309  cat awk_func.awk
+  310  awk -f awk_func.awk 
+  311  awk -f awk_func.awk  -v f=1 -v s=2
+  312  awk 'BEGIN {print "howdy, folks"}'
+  313  awk 'BEGIN {print "howdy, \n folks"}'
+  314  awk 'BEGIN {print "howdy, \\n folks"}'
+  315  awk 'BEGIN {print "howdy, $PWD folks"}'
+  316  awk -v PWD=$PWD 'BEGIN {print "my pwd dir is " , PWD}'
+  317  cd ../scripting/
+  318  ls
+  319  ls -latr ../sed_awk_scripts/
+  320  ls -latr
+  321  ls -latr *.sh
+  322  ls -latr  ????.sh
+  323  ls -latr  la*.sh
+  324  ls -latr  {fact,lang}.sh
+  325  touch .fact.sh
+  326  ls -latr *.sh
+  327  touch f\/test.sh
+  328  pwd
+  329  touch f\\test.sh
+  330  ls -latr
+  331  ls [!a-zA-Z]*
+  332  ls [a-zA-Z]*
+  333  rm *.[!s][!h]
+  334  touch \*\[\]\\\|\$.log
+  335  ls -latr
+  336  touch '*[]\|$.log'
+  337  ls -latr
+  338  touch '*[]\|$\ .log'
+  339  ls -latr
+  340  touch \*\[\]\\\|\$.log
+  341  ls -latr
+  342  touch "$HOME"
+  343  ls -latr
+  344  echo $HOME
+  345  echo “The average salary is \$1000”
+  346  echo 'The average salary is \$1000'
+  347  echo 'The average salary is $1000'
+  348  echo 'The average salary 'AMH' is $1000'
+  349  echo "The average salary 'AMH' is $1000"
+  350  echo "The average salary 'AMH' is \$1000"
+  351  echo 'The average salary "AMH" is $1000'
+  352  echo “Today is:” `date`
+  353  echo "Today is:" `date`
+  354  echo "Today is: `date`"
+  355  echo 'Today is: `date`'
+  356  ls ; pwd
+  357  ls ; pwd ;
+  358  ls & pwd
+  359  ls -latr
+  360  ls -la ^ls_tree.sh
+  361  ls -la ls_tree.sh
+  362  vi numusers.sh
+  363  sh numusers.sh 
+  364  $(pwd) 
+  365  echo $(pwd) 
+  366  export foo=’this is a test’
+  367  export foo="this is a test"
+  368  echo ${foo#t*is}
+  369  echo ${foo##t*is}
+  370  echo ${foo%t*is}
+  371  echo ${foo%t*st}
+  372  echo ${foo%%t*st}
+  373  echo ${foo:2}
+  374  echo ${foo:5}
+  375  echo ${foo:5:4}
+  376  echo ${foo/is/IS}
+  377  echo ${foo//is/IS}
+  378  echo ${foo/#this/IS}
+  379  echo ${foo/%test/IS}
+  380  ls -latr
+  381  cat numusers.sh 
+  382  /bin/sh
+  383  /bin/bash
+  384  ./numusers.sh
+  385  chmod 700 numusers.sh
+  386  ./numusers.sh
+  387  numusers.sh
+  388  ls
+  389  echo $PATH
+  390  ./numusers.sh
+  391  chmod u-x numusers.sh 
+  392  sh numusers.sh 
+  393  bash numusers.sh 
+  394  vi numusers.sh 
+  395  bash numusers.sh 
+  396  vi numusers.sh 
+  397  chmod u+x numusers.sh
+  398  ./numusers.sh 
+  399  ls ~
+  400  ls ~SemharTesfagergshTeklehaimanot/
+  401  cp numusers.sh numusers
+  402  ./numusers
+  403  ./numusers > numusers.out 2>&1
+  404  cat numusers.
+  405  cat numusers.out 
+  406  grep 'hello' << EOF
+  407  hello there
+  408  hi
+  409  hello again
+  410  EOF
+  411  which grep
+  412  grep 'hello' << END
+  413  hello there
+  414  hi
+  415  hello again
+  416  END
+  417  ls a.txt
+  418  touch abc.log
+  419  ls -latr
+  420  vi numbusers
+  421  vi numusers
+  422  sh numusers
+  423  sh numusers &
+  424  ps
+  425  ps aux
+  426  killall numusers
+  427  vi numuser
+  428  vi numusers
+  429  source numusers
+  430  env
+  431  echo $A
+  432  echo $B
+  433  echo $C
+  434  cat numusers
+  435  . numusers
+  436  echo $C
+  437  PS1=`echo $HOSTNAME | sed ‘s/\..*//’`; export PS1
+  438  tmux attach -t cs131_homework
+  439  ls
+  440  tmux attach -t cs131_homework
+  441  ls -altr
+  442  mkdir A5
+  443  cd A5
+  444  ls -latr
+  445  ls -latr ../A
+  446  ls -latr2
+  447  ls -latr ../A2
+  448  ls -latr ../A3
+  449  ls -latr ../*tsv
+  450  grep replied ../*tsv | head
+  451  head ../*tsv
+  452  head -1 ../*tsv
+  453  ls ../A2
+  454  man ls
+  455  man ln
+  456  ln -s ../A2/replies.uniq.txt replies.uniq.txt
+  457  ln -s ../A3/retweet_userA_userB.txt.nobot.uniq.txt retweet_userA_userB.txt.nobot.uniq.txt
+  458  ls -latr
+  459  head replies.uniq.txt
+  460  head retweet_userA_userB.txt.nobot.uniq.txt
+  461  grep 1058038885765255175 ../*tsv
+  462  ls -latr
+  463  grep replied_to ../*tsv
+  464  grep type=replied_to ../*tsv > all_replies.txt
+  465  ls -latr
+  466  count_tweets_entire_dataset=`wc all_replies.txt`
+  467  echo $count_tweets_entire_dataset
+  468  count_tweets_entire_dataset=`wc -l all_replies.txt`
+  469  echo $count_tweets_entire_dataset
+  470  count_tweets_entire_dataset=`wc -l all_replies.txt | awk '{print $1}'`
+  471  echo $count_tweets_entire_dataset
+  472  vi all_replies.txt
+  473  head -1 ../*tsv 
+  474  awk  '{print $4}' all_replies.txt > all_hashtags.txt
+  475  vi all_hashtags.txt 
+  476  awk -F "\t"  '{print $4}' all_replies.txt > all_hashtags.txt
+  477  vi all_hashtags.txt 
+  478  sed 's/"//g' all_hashtags.txt   | tr "," "\t" > all_hashtags2.txt
+  479  vi all_hashtags2.txt 
+  480  sed 's/"//g' all_hashtags.txt   | tr "," "\n" > all_hashtags2.txt
+  481  vi all_hashtags2.txt 
+  482  ls -latr
+  483  awk '{print $2}' replies.uniq.txt > userB_replies.txt
+  484  vi userB_replies.txt
+  485  vi all_replies.txt
+  486  head -1 ../*tsv
+  487  vi all_replies.txt
+  488  awk -F "\t" '{print $4,$7}' all_replies.txt > all_replies.hashes.userB.txt
+  489  vi all_replies.hashes.userB.txt
+  490  awk -OFS "\t" -F "\t" '{print $4,$7}' all_replies.txt > all_replies.hashes.userB.txt
+  491  awk -F "\t" 'BEGIN {OFS="\t"} {print $4,$7}' all_replies.txt > all_replies.hashes.userB.txt
+  492  vi all_replies.hashes.userB.txt
+  493  ls -latr
+  494  for userb in `cat userB_replies.txt` ; do hashtags=`grep $userb all_replies.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; echo $hashtags ; done
+  495  for userb in `cat userB_replies.txt` ; do hashtags=`grep $userb all_replies.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; echo $userb $hashtags ; done
+  496  for userb in `cat userB_replies.txt` ; do hashtags=`grep $userb all_replies.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do echo $userb $h ; done ; done
+  497  for userb in `cat userB_replies.txt` ; do hashtags=`grep $userb all_replies.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do echo $userb $h ; done ; done:q
+  498  for userb in `cat userB_replies.txt` ; do hashtags=`grep $userb all_replies.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do echo $userb $h ; done ; done
+  499  ls -latr
+  500  vi all_replies.hashes.userB.txt 
+  501  for userb in `cat userB_replies.txt` ; do hashtags=`grep $userb all_replies.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`grep $userb all_replies.hashes.userB.txt | grep $h | wc -l`;   count_tweets_in_C=`grep $userb all_replies.hashes.userB.txt | wc -l`;   count_H_entire_dataset=`grep $h all_hashtags2.txt | wc -l` ; echo $h $userb $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  502  for userb in `cat userB_replies.txt` ; do hashtags=`grep $userb all_replies.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`grep $userb all_replies.hashes.userB.txt | grep $h | wc -l`;   count_tweets_in_C=`grep $userb all_replies.hashes.userB.txt | wc -l`;   count_H_entire_dataset=`grep $h all_hashtags2.txt | wc -l` ; echo $h $userb $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done  > counts_replies.txt
+  503  vi counts_replies.txt
+  504  ls -latr
+  505  vi all_replies.hashes.userB.txt 
+  506  vi counts_replies.txt
+  507  vi all_replies.hashes.userB.txt 
+  508  history > cmds_replies.log
+  509  vi all_replies.hashes.userB.txt 
+  510  grep 1266038659 all_replies.txt | wc
+  511  grep 1266038659 all_replies.txt | grep -i sayft wc
+  512  grep 1266038659 all_replies.txt | grep -i sayft | wc
+  513  vi counts_replies.txt
+  514  grep -i sayftychat counts_replies.txt | wc
+  515  grep -i sayftychat counts_replies.txt | grep 1266038659 | wc
+  516  ls -latr
+  517  grep type=retweet ../*tsv > all_retweets.txt
+  518  vi all_retweets.txt
+  519  awk -F"\t" 'BEGIN {OFS="\t"} {print $4,$6}' all_retweets.txt > all_retweets_hashtags.txt 
+  520  vi all_retweets_hashtags.txt
+  521  vi all_retweets.txt
+  522  vi all_retweets_hashtags.txt
+  523  ls -latr
+  524  vi retweet_userA_userB.txt.nobot.uniq.txt
+  525  grep join ../A3/cmds_A3.log 
+  526  join -1 1 -2 2 ../downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv  all_retweets_hashtags.txt | head
+  527  grep sort ../A3/cmds_A3.log 
+  528  join -1 1 -2 2 ../downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv  all_retweets_hashtags.txt | head
+  529  sort -k 2 all_retweets_hashtags.txt > all_retweets_hashtags.sorted.txt
+  530  sort -k 1 ../downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv > all_retweeted.txt
+  531  join -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | head
+  532  join -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt > joined
+  533  vi joined
+  534  vi all_retweets_hashtags.sorted.txt
+  535  vi all_retweeted.txt
+  536* join -t "	"  -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | awk -F "\t" 
+  537  vi joined
+  538  ls -latr
+  539  vi all_retweets_hashtags.txt
+  540  vi joined
+  541  vi all_retweets_hashtags.txt
+  542  vi joined
+  543  join -t "   "  -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | awk -F "\t" 'BEGIN {OFS="\t"} {print $2,$4}'  > all_retweeted.hashes.userB.txt
+  544  vi all_retweeted.hashes.userB.txt
+  545  join -t "   "  -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | awk -F "\t" '{print $2,$4}'  > all_retweeted.hashes.userB.txt
+  546  vi all_retweeted.hashes.userB.txt
+  547  join -t "	"  -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | awk -F "\t" 'BEGIN {OFS="\t"} {print $2,$4}'  > all_retweeted.hashes.userB.txt
+  548  vi all_retweeted.hashes.userB.txt
+  549  ls -latr
+  550  vi all_retweeted.hashes.userB.txt
+  551  awk -F "\t" '{print $2}' all_retweeted.hashes.userB.txt | sed 's/"//g' | tr "," "\n" > all_retweeted.hashtags.txt
+  552  vi all_retweeted.hashtags.txt
+  553  awk '{print $2}' retweet_userA_userB.txt.nobot.uniq.txt > userB_retweets.txt
+  554  vi userB_retweets.txt
+  555  ls -latr
+  556  for userb in `cat userB_retweets.txt` ; do hashtags=`grep $userb all_retweeted.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`grep $userb all_retweeted.hashes.userB.txt | grep $h | wc -l`;   count_tweets_in_C=`grep $userb all_retweeted.hashes.userB.txt | wc -l`;   count_H_entire_dataset=`grep $h all_retweeted.hashtags.txt | wc -l` ; echo $h $userb $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done  > counts_retweets.txt
+  557  vi all_retweeted.hashtags.txt
+  558  join -t "	"  -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | awk -F "\t" 'BEGIN {OFS="\t"} {print $2,$4}'  | head
+  559  join -t "	"  -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | awk -F "\t" 'BEGIN {OFS="\t"} {print $2,$4}'  | wc
+  560  join -t "	"  -1 1 -2 2  all_retweeted.txt  all_retweets_hashtags.sorted.txt | awk -F "\t" 'BEGIN {OFS="\t"} {print $2,$4}'  > all_retweeted.hashes.userB.txt
+  561  vi all_retweeted.hashes.userB.txt
+  562  for userb in `cat userB_retweets.txt` ; do hashtags=`grep $userb all_retweeted.hashes.userB.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`grep $userb all_retweeted.hashes.userB.txt | grep $h | wc -l`;   count_tweets_in_C=`grep $userb all_retweeted.hashes.userB.txt | wc -l`;   count_H_entire_dataset=`grep $h all_retweeted.hashtags.txt | wc -l` ; echo $h $userb $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done  > counts_retweets.txt
+  563  for userb in `cat userB_retweets.txt` ; do hashtags=`grep $userb all_retweeted.hashes.userB.txt | awk '{print $2}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`grep $userb all_retweeted.hashes.userB.txt | grep $h | wc -l`;   count_tweets_in_C=`grep $userb all_retweeted.hashes.userB.txt | wc -l`;   count_H_entire_dataset=`grep $h all_retweeted.hashtags.txt | wc -l` ; echo $h $userb $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done  > counts_retweets.txt
+  564  history > cmds_retweets.log 
+  565  ls -latr
+  566  cd ..
+  567  mkdir A5_new
+  568  cd A5_new/
+  569  cd ../A2
+  570  ls
+  571  ls -latr
+  572  cd ../A3
+  573  ls -latr
+  574  cd ../A5
+  575  ln -s ../A3/retweet_userA_userB.txt.nobot.uniq.txt retweet_userA_userB.txt.nobot.uniq.txt
+  576  ls -latr
+  577  cd ../A5_new/
+  578  ln -s ../A3/retweet_userA_userB.txt.nobot.uniq.txt retweet_userA_userB.txt.nobot.uniq.txt
+  579  ln -s ../A2/replies.uniq.txt replies.uniq.txt
+  580  ls -latr
+  581  head re
+  582  head re*
+  583  grep type=replied_to ../downloaded_tweets_extend_*tsv > all_replies.txt
+  584  vi all_replies.txt 
+  585  head -1 ../downloaded_tweets_extend_*tsv
+  586  head -2 ../downloaded_tweets_extend_*tsv
+  587  awk -F "\t" '{print $4}' all_replies.txt > replies_hashtags.txt
+  588  head replies_hashtags.txt
+  589  awk -F "\t" '{print $4}' all_replies.txt | sed 's/^"//g' | sed 's/"$//g' | tr "," "\n" > replies_hashtags.txt
+  590  head replies_hashtags.txt
+  591  wc replies_hashtags.txt
+  592  ls -latr
+  593  head replies.uniq.txt
+  594  awk '{print $2}' replies.uniq.txt > replies_userBs.txt
+  595  ls -altr
+  596  head replies_userBs.txt
+  597  count_tweets_entire_dataset=`wc -l all_replies.txt`
+  598  echo $count_tweets_entire_dataset
+  599  count_tweets_entire_dataset=`wc -l all_replies.txt | awk '{print $1}'`
+  600  echo $count_tweets_entire_dataset
+  601  head all_replies.txt 
+  602  ls -latr ../A5
+  603  grep all_replies.hashes.userB.txt ../A5/cmds_replies.log 
+  604  ls -latr
+  605  head all_replies.txt
+  606  ls -latr
+  607  awk -F "\t" '{print $7,$4}' all_replies.txt  >  replies_userBs_hashtags.txt
+  608  vi replies_userBs_hashtags.txt
+  609  vi all_replies.txt 
+  610  awk -F "\t" 'BEGIN {OFS="\t"} {print $7,$4}' all_replies.txt  >  replies_userBs_hashtags.txt
+  611  vi replies_userBs_hashtags.txt
+  612  awk -F "\t" 'BEGIN {OFS="\t"} {print $7,$4}' all_replies.txt  >  replies_userBs_hashtags.txt
+  613  vi all_replies.txt
+  614  wc all_replies.txt 
+  615  awk -F "\t" 'BEGIN {OFS="\t"} {print $4,$7}' all_replies.txt  >  replies_userBs_hashtags.txt
+  616  vi replies_userBs_hashtags.txt
+  617  ls -latr
+  618  for userb in `cat replies_userBs.txt` ; do hashtags=`egrep "\t$userb$" replies_userBs_hashtags.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep "\t$userb$"  replies_userBs_hashtags.txt  | awk '{print $1}' | tr "," "\n" | egrep "^$h$" | wc -l`;   count_tweets_in_C=`egrep "\t$userb$" replies_userBs_hashtags.txt | wc -l`;   count_H_entire_dataset=`egrep "^$h$" replies_hashtags.txt  | wc -l` ; echo $h $userb $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  619  for userb in `cat replies_userBs.txt` ; do hashtags=`egrep $userb replies_userBs_hashtags.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  replies_userBs_hashtags.txt  | awk '{print $1}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb replies_userBs_hashtags.txt | wc -l`;   count_H_entire_dataset=`egrep $h replies_hashtags.txt  | wc -l` ; echo $h $userb $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  620  for userb in `cat replies_userBs.txt` ; do hashtags=`egrep $userb replies_userBs_hashtags.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  replies_userBs_hashtags.txt  | awk '{print $1}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb replies_userBs_hashtags.txt | wc -l`;   count_H_entire_dataset=`egrep $h replies_hashtags.txt  | wc -l` ; relative_frequency_H_C=`echo $count_H_in_C / $count_H_entire_dataset | bc` ; frequency_H_in_C=`echo $count_H_in_C / $count_tweets_in_C | bc`; frequency_H_overall=`echo $count_H_entire_dataset / $count_tweets_entire_dataset | bc`; echo $h $userb   $relative_frequency_H_C  $frequency_H_in_C  $frequency_H_overall $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  621  for userb in `cat replies_userBs.txt` ; do hashtags=`egrep $userb replies_userBs_hashtags.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  replies_userBs_hashtags.txt  | awk '{print $1}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb replies_userBs_hashtags.txt | wc -l`;   count_H_entire_dataset=`egrep $h replies_hashtags.txt  | wc -l` ; relative_frequency_H_C=`echo "$count_H_in_C / $count_H_entire_dataset" | bc` ; frequency_H_in_C=`echo "$count_H_in_C / $count_tweets_in_C" | bc`; frequency_H_overall=`echo "$count_H_entire_dataset / $count_tweets_entire_dataset" | bc`; echo $h $userb   $relative_frequency_H_C  $frequency_H_in_C  $frequency_H_overall $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  622  frequency_H_overall=`echo "$count_H_entire_dataset / $count_tweets_entire_dataset" | bc`
+  623  echo $frequency_H_overall
+  624  echo "$count_H_entire_dataset / $count_tweets_entire_dataset" | bc
+  625  echo $count_H_entire_dataset
+  626  echo $count_tweets_entire_dataset
+  627  for userb in `cat replies_userBs.txt` ; do hashtags=`egrep $userb replies_userBs_hashtags.txt | awk '{print $1}' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  replies_userBs_hashtags.txt  | awk '{print $1}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb replies_userBs_hashtags.txt | wc -l`;   count_H_entire_dataset=`egrep $h replies_hashtags.txt  | wc -l` ; relative_frequency_H_C=`echo "scale=2; $count_H_in_C / $count_H_entire_dataset" | bc` ; frequency_H_in_C=`echo "scale=2; $count_H_in_C / $count_tweets_in_C" | bc`; frequency_H_overall=`echo "scale=2; $count_H_entire_dataset / $count_tweets_entire_dataset" | bc`; echo $h $userb   $relative_frequency_H_C  $frequency_H_in_C  $frequency_H_overall $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  628  for userb in `cat replies_userBs.txt` ; do hashtags=`egrep $userb replies_userBs_hashtags.txt | awk '{print $1}' | sed 's/"//g' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  replies_userBs_hashtags.txt  | awk '{print $1}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb replies_userBs_hashtags.txt | wc -l`;   count_H_entire_dataset=`egrep $h replies_hashtags.txt  | wc -l` ; relative_frequency_H_C=`echo "scale=2; $count_H_in_C / $count_H_entire_dataset" | bc` ; frequency_H_in_C=`echo "scale=2; $count_H_in_C / $count_tweets_in_C" | bc`; frequency_H_overall=`echo "scale=2; $count_H_entire_dataset / $count_tweets_entire_dataset" | bc`; echo $h $userb   $relative_frequency_H_C  $frequency_H_in_C  $frequency_H_overall $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  629* for userb in `cat replies_userBs.txt` ; do hashtags=`egrep $userb replies_userBs_hashtags.txt | awk '{print $1}' | sed 's/"//g' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  replies_userBs_hashtags.txt  | awk '{print $1}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb replies_userBs_hashtags.txt | wc -l`;   count_H_entire_dataset=`egrep $h replies_hashtags.txt  | wc -l` ; relative_frequency_H_C=`echo "scale=2; $count_H_in_C / $count_H_entire_dataset" | bc` ; frequency_H_in_C=`echo "scale=2; $count_H_in_C / $count_tweets_in_C" | bc`; frequency_H_overall=`echo "scale=2; $count_H_entire_dataset / $count_tweets_entire_dataset" | bc`; echo $h $userb   $relative_frequency_H_C  $frequency_H_in_C  $frequency_H_overall $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done > replies_hashtag_freqs.tsv
+  630  head replies_hashtag_freqs.tsv
+  631  tail replies_hashtag_freqs.tsv
+  632  grep -i SayftyChat   replies_hashtags.txt | wc
+  633  grep -i SayftyChat   replies_hashtags.txt | grep 1266038659 | wc
+  634  grep -i SayftyChat   replies_userBs_hashtags.txt | grep 1266038659 | wc
+  635  ls -latr
+  636  grep type=retweeted ../downloaded_tweets_extend_*tsv > all_retweets.txt
+  637  vi all_retweets.txt
+  638  awk -F "\t" 'BEGIN {OFS="\t"} {print $4,$6}'  all_retweets.txt > all_hashtags_retweetids.txt
+  639  vi all_hashtags_retweetids.txt
+  640  sort -k2 all_hashtags_retweetids.txt > all_hashtags_retweetids.sorted.txt
+  641  vi all_hashtags_retweetids.sorted.
+  642  vi all_hashtags_retweetids.sorted.txt 
+  643  sort -k 1 ../downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv > retweeted_userBs.sorted.txt
+  644  vi retweeted_userBs.sorted.txt
+  645  sort -k 1 ../downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv | awk '{print $1\t$2}' > retweeted_userBs.sorted.txt
+  646  sort -k 1 ../downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv | awk 'BEGIN {OFS="\t"} {print $1,$2}' > retweeted_userBs.sorted.txt
+  647  vi retweeted_userBs.sorted.txt
+  648  join -t "	"  -1 1 -2 2  retweeted_userBs.sorted.txt  all_hashtags_retweetids.sorted.txt   | awk -F "\t" 'BEGIN {OFS="\t"} {print $0}'  
+  649  join -t "	"  -1 1 -2 2  retweeted_userBs.sorted.txt  all_hashtags_retweetids.sorted.txt   | awk -F "\t" 'BEGIN {OFS="\t"} {print $2,$3}'
+  650  join -t "	"  -1 1 -2 2  retweeted_userBs.sorted.txt  all_hashtags_retweetids.sorted.txt   | awk -F "\t" 'BEGIN {OFS="\t"} {print $2,$3}' > all_retweeted.hashes.userB.txt
+  651  vi all_retweeted.hashes.userB.txt
+  652  ls -latr
+  653  awk '{print $2}' retweet_userA_userB.txt.nobot.uniq.txt > retweets_userBs.txt
+  654  vi retweets_userBs.txt
+  655  count_tweets_entire_dataset=`wc -l all_retweets.txt | awk '{print $1}'`
+  656  echo $count_tweets_entire_dataset
+  657  ls -latr
+  658  for userb in `cat retweets_userBs.txt` ; do hashtags=`egrep $userb all_retweeted.hashes.userB.txt | awk '{print $2}' | sed 's/"//g' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  all_retweeted.hashes.userB.txt | awk '{print $2}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb all_retweeted.hashes.userB.txt | wc -l`;   count_H_entire_dataset=`egrep $h all_retweeted.hashes.userB.txt  | wc -l` ; relative_frequency_H_C=`echo "scale=2; $count_H_in_C / $count_H_entire_dataset" | bc` ; frequency_H_in_C=`echo "scale=2; $count_H_in_C / $count_tweets_in_C" | bc`; frequency_H_overall=`echo "scale=2; $count_H_entire_dataset / $count_tweets_entire_dataset" | bc`; echo $h $userb   $relative_frequency_H_C  $frequency_H_in_C  $frequency_H_overall $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done
+  659  for userb in `cat retweets_userBs.txt` ; do hashtags=`egrep $userb all_retweeted.hashes.userB.txt | awk '{print $2}' | sed 's/"//g' | tr "," "\n"`; for h in $hashtags ; do count_H_in_C=`egrep $userb  all_retweeted.hashes.userB.txt | awk '{print $2}' | tr "," "\n" | egrep $h | wc -l`;   count_tweets_in_C=`egrep $userb all_retweeted.hashes.userB.txt | wc -l`;   count_H_entire_dataset=`egrep $h all_retweeted.hashes.userB.txt  | wc -l` ; relative_frequency_H_C=`echo "scale=2; $count_H_in_C / $count_H_entire_dataset" | bc` ; frequency_H_in_C=`echo "scale=2; $count_H_in_C / $count_tweets_in_C" | bc`; frequency_H_overall=`echo "scale=2; $count_H_entire_dataset / $count_tweets_entire_dataset" | bc`; echo $h $userb   $relative_frequency_H_C  $frequency_H_in_C  $frequency_H_overall $count_H_in_C   $count_tweets_in_C   $count_H_entire_dataset    $count_tweets_entire_dataset ; done ; done > retweets_hashtag_freqs.tsv
+  660  history > cmds_replies_retweets.log

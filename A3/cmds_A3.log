@@ -1,0 +1,56 @@
+
+
+
+  610  grep type=retweeted downloaded_tweets_extend_*tsv  |  cut -f 2 > userA_tweet_authors.txt
+  611  grep type=retweeted downloaded_tweets_extend_*tsv | sed "s/^.*ReferencedTweet id=//g" | sed "s/ .*$//g" > retweeted_ids.txt
+  612  wc userA_tweet_authors.txt
+  613  wc retweeted_ids.txt
+  614  paste retweeted_ids.txt userA_tweet_authors.txt > retweeted_ids.txt.userA_tweet_authors.txt
+  615  fgrep -f retweeted_ids.uniq.txt downloaded_tweets_extend_original_ids_nolf.ASCII.CLEAN.tsv | cut -f1,2 > tweets_retweeted_ids_userB_tweet_authors.txt
+  616  wc retweeted_ids.txt
+  617  wc retweeted_ids.uniq.txt
+  618  wc tweets_retweeted_ids_userB_tweet_authors.txt
+  619  vi tweets_retweeted_ids_userB_tweet_authors.txt
+  620  sort retweeted_ids.txt | uniq > retweeted_ids.uniq.tmp
+  621  diff retweeted_ids.uniq.tmp retweeted_ids.uniq.txt
+  622  sort -k 1 retweeted_ids.txt.userA_tweet_authors.txt > retweeted_ids.txt.userA_tweet_authors.sort.txt
+  623  sort -k 1 tweets_retweeted_ids_userB_tweet_authors.txt > tweets_retweeted_ids_userB_tweet_authors.sort.txt
+  624  join -1 1 -2 1 retweeted_ids.txt.userA_tweet_authors.sort.txt tweets_retweeted_ids_userB_tweet_authors.sort.txt > retweet_userA_userB.txt
+  625  vi retweet_userA_userB.txt
+  626  join -1 1 -2 1 retweeted_ids.txt.userA_tweet_authors.sort.txt tweets_retweeted_ids_userB_tweet_authors.sort.txt | cut -f2,3 > retweet_userA_userB.txt
+  627  vi retweet_userA_userB.txt
+  628  join -1 1 -2 1 retweeted_ids.txt.userA_tweet_authors.sort.txt tweets_retweeted_ids_userB_tweet_authors.sort.txt | cut -d " " -f2,3 > retweet_userA_userB.txt
+  629  vi retweet_userA_userB.txt
+  630  sort retweet_userA_userB.txt | uniq | awk '$1 !=$2 {print 0}' > retweet_userA_userB.txt.nobot.uniq.txt
+  631  vi retweet_userA_userB.txt.nobot.uniq.txt
+  632  sort retweet_userA_userB.txt | uniq | awk '$1 !=$2 {print $0}' > retweet_userA_userB.txt.nobot.uniq.txt
+
+
+  [billandreopoulos@sjsu ~]$ wc retweet_userA_userB.txt.nobot.uniq.txt
+    90114  180228 2431226 retweet_userA_userB.txt.nobot.uniq.txt
+    [billandreopoulos@sjsu ~]$ wc retweet_userA_userB.txt
+     178045  356090 4772916 retweet_userA_userB.txt
+
+
+
+  633  vi retweet_userA_userB.txt.nobot.uniq.txt
+  634  wc retweet_userA_userB.txt
+  635  wc retweet_userA_userB.txt.nobot.uniq.txt
+  636  cut -f 2 retweet_userA_userB.txt.nobot.uniq.txt | sort | uniq -c | sort -n -k1 > userBcounts.txt
+  637  vi userBcounts.txt
+  638  vi retweet_userA_userB.txt.nobot.uniq.txt
+  639  cut -d " " -f 2 retweet_userA_userB.txt.nobot.uniq.txt | sort | uniq -c | sort -n -k1 > userBcounts.txt
+  640  vi userBcounts.txt
+  641  cut -d " " -f 1 retweet_userA_userB.txt.nobot.uniq.txt | sort | uniq -c | sort -n -k1 > userAcounts.txt
+  642  vi userAcounts.txt
+  643  vi userBcounts.txt
+  644  history > cmds_A3.log
+
+
+
+  [billandreopoulos@sjsu ~]$ grep type=retweeted downloaded_tweets_extend_*tsv | cut -f2,6 > userB_retweetid.txt                         
+  [billandreopoulos@sjsu ~]$ wc userB_retweetid.txt
+   178045  356090 5953315 userB_retweetid.txt
+   [billandreopoulos@sjsu ~]$ wc retweeted_ids.txt.userA_tweet_authors.txt
+    178045  356090 5953315 retweeted_ids.txt.userA_tweet_authors.txt
+
