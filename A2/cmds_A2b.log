@@ -1,0 +1,59 @@
+  484  cd CS131_wba
+  485  ls
+  486  ls -latr
+  487  pwd
+  488  ls A2
+  489  pwd
+  490  ls -latr
+  491  cd A2
+  492  ls -latr
+  493  cd ../A3
+  494  ls -latr
+  495  cd ..
+  496  ls -latr
+  497  ls -latr DATA/
+  498  pwd
+  499  cd A2
+  500  ls
+  501  ls -latr
+  502  vi replies.uniq.txt 
+  503  cd ../A3
+  504  ls -lart
+  505  vi retweet_userA_userB.txt.nobot.uniq.txt
+  506  pwd
+  507  vi userBcounts.txt 
+  508  cp userBcounts.txt userBcountshigh.txt
+  509  cp userBcounts.txt userBcountslow.txt
+  510  vi userBcountslow.txt
+  511  vi userBcountshigh.txt 
+  512  for i in `cat userBcountslow.txt` ; do grep $i retweet_userA_userB.txt.nobot.uniq.txt ; done
+  513  for i in `cat userBcountslow.txt` ; do awk -v usb=$i '($2==usb) {print $0}' retweet_userA_userB.txt.nobot.uniq.txt ; done
+  514  for i in `cat userBcountslow.txt` ; do grep "\t$i$" retweet_userA_userB.txt.nobot.uniq.txt ; done
+  515  for i in `cat userBcountslow.txt` ; do egrep "	$i$" retweet_userA_userB.txt.nobot.uniq.txt ; done
+  516  for i in `cat userBcountslow.txt` ; do egrep " $i$" retweet_userA_userB.txt.nobot.uniq.txt ; done
+  517  for i in `cat userBcountslow.txt` ; do egrep " $i$" retweet_userA_userB.txt.nobot.uniq.txt ; done > retweet_userA_userB.txt.nobot.uniq.low.txt
+  518  for i in `cat userBcountshigh.txt` ; do egrep " $i$" retweet_userA_userB.txt.nobot.uniq.txt ; done > retweet_userA_userB.txt.nobot.uniq.high.txt
+  519  head retweet_userA_userB.txt.nobot.uniq.high.txt
+  520  git add retweet_userA_userB.txt.nobot.uniq.high.txt retweet_userA_userB.txt.nobot.uniq.low.txt
+  521  vi retweet_userA_userB.txt.nobot.uniq.high.txt
+  522  vi retweet_userA_userB.txt.nobot.uniq.low.txt
+  523  pwd
+  524  ls -latr
+  525  git commit -a -m "highlow infl"
+  526  git push -u origin main
+  527  cd ../A2
+  528  ls -latr
+  529  vi replies.uniq.txt 
+  530  awk '{print $2}' replies.uniq.txt
+  531  awk '{print $2}' replies.uniq.txt | sort | uniq -c  | sort -n -k 1 > replies.uniq.txt.userBcounts.txt
+  532  vi replies.uniq.txt.userBcounts.txt
+  533  cp replies.uniq.txt.userBcounts.txt replies.uniq.txt.userBcountshigh.txt
+  534  cp replies.uniq.txt.userBcounts.txt replies.uniq.txt.userBcountslo.txt
+  535  mv replies.uniq.txt.userBcountslo.txt replies.uniq.txt.userBcountslo2.txt
+  536  mv replies.uniq.txt.userBcountslo2.txt replies.uniq.txt.userBcountslow.txt
+  537  vi replies.uniq.txt.userBcountslow.txt
+  538  vi replies.uniq.txt.userBcountshigh.txt
+  539  for i in `cat replies.uniq.txt.userBcountslow.txt`;  do egrep " $i$" replies.uniq.txt  ; done >  replies.uniq.low.txt
+  540  for i in `cat replies.uniq.txt.userBcountshigh.txt`;  do egrep " $i$" replies.uniq.txt  ; done >  replies.uniq.high.txt
+  541  ls -latr
+  542  history | tail -100 > cmds_A2b.log
