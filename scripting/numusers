@@ -1,0 +1,9 @@
+#!/bin/bash
+user=`whoami`
+numusers=`who | wc -l`
+A="A"
+B="B"
+C="C"
+
+echo "Hi $user! There are $numusers users logged on."
+

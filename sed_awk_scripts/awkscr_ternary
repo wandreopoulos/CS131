@@ -1,0 +1,5 @@
+{
+print $1,
+index ($7, "bash") ? " uses bash" : "does  not use bash"
+}
+
