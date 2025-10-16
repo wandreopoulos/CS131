@@ -1,0 +1,7 @@
+  #! /usr/bin/awk -f
+BEGIN {
+          a[1]="goodclass"
+          delete a[1]
+          print a[1]
+}
+
