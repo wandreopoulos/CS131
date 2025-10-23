@@ -1,15 +1,12 @@
-#!/bin/bash
-if [ $# -ne 1  ]; then
-    echo “Usage: $0 n” >&2; exit 1
-fi
-
-
-fact=1
-number=$1
-
-until [ $number = 0  ] ; do
-    fact=`expr $fact \* $number`
-    number=`expr $number – 1`
-done
-echo $fact
+		#!/bin/bash
+		echo "Enter number: "
+		read n
+		fac=1
+		i=1
+ 		while [ $i -le $n ];
+		do
+			fac=`expr $fac \* $i`
+			i=`expr $i + 1`
+		done
+		echo "The factorial of $n is $fac"
 
